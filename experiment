@@ -1,9 +1,8 @@
 #!/bin/bash
 
-### Journal Entry
+###
 # June 4, 2022
-# I Googled "bash scripts file extension," and it turns out
-# shell scripts can have the file extension of `.sh` but it can
+# Shell scripts can have the file extension of `.sh` but it can
 # be more useful to leave it without any extension. Instead,
 # just put the shebang `#!/bin/bash` at the first one.
 # Plus, use `chmod +x` to make this script executable.
@@ -16,3 +15,4 @@
 ###
 
 echo $((1+1)) 
+
