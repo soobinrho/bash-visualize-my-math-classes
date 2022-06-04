@@ -3,11 +3,11 @@
 ###
 # June 3, 2022
 # Learned about git using `info gittutorial'.
-# Summary of what I learned today:
+# summary of what i learned today:
 # ```
 # git init
-# git add README.md
-# git commit -am 'Description'
+# git add readme.md
+# git commit -am 'description'
 # git push
 #
 # git status
@@ -16,39 +16,49 @@
 ###
 
 ###
-# June 4, 2022 
-# Shell scripts can have the file extension of `.sh` but it can 
-# be more useful to leave it without any extension. Instead, 
+# june 4, 2022 
+# shell scripts can have the file extension of `.sh` but it can 
+# be more useful to leave it without any extension. instead, 
 # just put the shebang `#!/bin/bash` at the first one.  
-# Plus, use `chmod +x` to make this script executable.
+# plus, use `chmod +x` to make this script executable.
 #
-# Also, apparently, this convention called shebang is not used
-# on Windows. `.sh` convention is used in Windows. Since I'm using
-# Fedora, I'm going to stick to the shebang convention.
+# also, apparently, this convention called shebang is not used
+# on windows. `.sh` convention is used in windows. since i'm using
+# fedora, i'm going to stick to the shebang convention.
 #
-# Source: https://stackoverflow.com/questions/27813563/what-is-the-bash-file-extension
+# source: https://stackoverflow.com/questions/27813563/what-is-the-bash-file-extension
 ###
 
-# By the way, you can copy something on to the clipboard on Vim 
+# by the way, you can copy something on to the clipboard on vim 
 # and then paste it onto another console by
 # ```
 # v
 # "+y
 # ctrl+shift+v
 # ```
+# this functionality is not available on normal vim though.
+# on fedora, you can use this functionality by installing
+# `vimx` and - of course - by using vimx to edit the files.
+
+# initialize the menu
+menu[0]='find the function y=ax+b using the coordinates of two points.'
+menu[1]=' '
+menu[2]=' '
 
 # Print the menu
-printf '\n'
-printf '\tBash Math Visualization\n'
-printf '\t-----------------------'
-printf '\n'
-printf '\t'
-printf '\n'
-printf '\t1. Input the coordinates of two points and find the function y=ax+b.'
-printf '\n'
-printf '\n'
+printf "\n"
+printf "\tBash Math Visualization\n"
+printf "\t-----------------------"
+printf "\n"
+printf "\t"
+printf "\n"
+printf "\t1. ${menu[0]}"
+printf "\n"
+printf "\n"
 
-# Select menu
+
+
+# Select an option from the menu
 read input
 
 if 
