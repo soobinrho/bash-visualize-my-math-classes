@@ -1,2 +1,2 @@
-# bash-visualize-my-math-classes
+# Overview
 Scripts visualizing all of my math classes.
