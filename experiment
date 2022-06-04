@@ -1,1 +1,18 @@
-echo hello world
+#!/bin/bash
+
+### Journal Entry
+# June 4, 2022
+# I Googled "bash scripts file extension," and it turns out
+# shell scripts can have the file extension of `.sh` but it can
+# be more useful to leave it without any extension. Instead,
+# just put the shebang `#!/bin/bash` at the first one.
+# Plus, use `chmod +x` to make this script executable.
+#
+# Also, apparently, this convention called shebang is not used
+# on Windows. `.sh` convention is used in Windows. Since I'm using
+# Fedora, I'm going to stick to the shebang convention.
+#
+# Source: https://stackoverflow.com/questions/27813563/what-is-the-bash-file-extension
+###
+
+echo $((1+1)) 
