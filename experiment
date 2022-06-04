@@ -37,17 +37,21 @@
 # ctrl+shift+v
 # ```
 
+# Print the menu
 printf '\n'
 printf '\tBash Math Visualization\n'
 printf '\t-----------------------'
 printf '\n'
 printf '\t'
 printf '\n'
-printf '\t1. Find the function y = ax + b by using the coordinates of two points.'
+printf '\t1. Input the coordinates of two points and find the function y=ax+b.'
 printf '\n'
 printf '\n'
 
+# Select menu
+read input
 
+if 
 
 
 A='Hello World'
@@ -56,3 +60,13 @@ echo $A
 
 echo $((1+1)) 
 
+# Initialize an index
+example_index[0]=0
+example_index[1]=2
+example_index[2]=4
+example_index=(0 2 4)
+echo ${example_index[0]}
+echo ${example_index[*]}
+
+# Remove the index
+unset example_index
