@@ -1,6 +1,21 @@
 #!/bin/bash
 
 ###
+# June 3, 2022
+# Learned about git using `info gittutorial'.
+# Summary of what I learned today:
+# ```
+# git init
+# git add README.md
+# git commit -am 'Description'
+# git push
+#
+# git status
+# git diff
+# ```
+###
+
+###
 # June 4, 2022
 # Shell scripts can have the file extension of `.sh` but it can
 # be more useful to leave it without any extension. Instead,
