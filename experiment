@@ -29,10 +29,26 @@
 # Source: https://stackoverflow.com/questions/27813563/what-is-the-bash-file-extension
 ###
 
+# By the way, you can copy something on to the clipboard on Vim 
+# and then paste it onto another console by
+# ```
+# v
+# "+y
+# ctrl+shift+v
+# ```
+
 printf '\n'
-printf '\t# Bash Math Visualization'
+printf '\tBash Math Visualization\n'
+printf '\t-----------------------'
 printf '\n'
 printf '\t'
+printf '\n'
+printf '\t1. Find the function y = ax + b by using the coordinates of two points.'
+printf '\n'
+printf '\n'
+
+
+
 
 A='Hello World'
 echo $A
