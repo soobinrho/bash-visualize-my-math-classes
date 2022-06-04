@@ -16,10 +16,10 @@
 ###
 
 ###
-# June 4, 2022
-# Shell scripts can have the file extension of `.sh` but it can
-# be more useful to leave it without any extension. Instead,
-# just put the shebang `#!/bin/bash` at the first one.
+# June 4, 2022 
+# Shell scripts can have the file extension of `.sh` but it can 
+# be more useful to leave it without any extension. Instead, 
+# just put the shebang `#!/bin/bash` at the first one.  
 # Plus, use `chmod +x` to make this script executable.
 #
 # Also, apparently, this convention called shebang is not used
@@ -28,6 +28,15 @@
 #
 # Source: https://stackoverflow.com/questions/27813563/what-is-the-bash-file-extension
 ###
+
+printf '\n'
+printf '\t# Bash Math Visualization'
+printf '\n'
+printf '\t'
+
+A='Hello World'
+echo $A
+
 
 echo $((1+1)) 
 
