@@ -40,25 +40,31 @@
 # on fedora, you can use this functionality by installing
 # `vimx` and - of course - by using vimx to edit the files.
 
-# initialize the menu
-menu[0]='find the function y=ax+b using the coordinates of two points.'
+# I am so glad to have found the "top of the INFO tree."
+# It has documentations for everything, including
+# core file manipulation, Gzip, grep, etc.
+# ```
+# info bash
+# u
+# ```
+
+# Initialize the menu
+menu[0]='Find the function y=ax+b using the coordinates of two points.'
 menu[1]=' '
 menu[2]=' '
 
 # Print the menu
 printf "\n"
 printf "\tBash Math Visualization\n"
-printf "\t-----------------------"
+printf "\t-----------------------\n"
 printf "\n"
-printf "\t"
+printf "\t1. ${menu[0]}\n"
+#printf "\t2. ${menu[1]}\n"
+#printf "\t3. ${menu[2]}\n"
 printf "\n"
-printf "\t1. ${menu[0]}"
-printf "\n"
-printf "\n"
-
-
 
 # Select an option from the menu
+printf "\nSelect: "
 read input
 
 if 
