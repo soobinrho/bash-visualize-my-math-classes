@@ -64,18 +64,27 @@ menu[0]='Find the function y=ax+b using the coordinates of two points.'
 menu[1]=' '
 menu[2]=' '
 
+function PrintMenu () {
+	printf "\n"
+	printf "\tBash Math Visualization\n"
+	printf "\t=======================\n"
+	printf "\n"
+	printf "\t1. ${menu[0]}\n"
+	printf "\n"
+	#printf "\t2. ${menu[1]}\n"
+	#printf "\t3. ${menu[2]}\n"
+}
+
 # Print the menu
-printf "\n"
-printf "\tBash Math Visualization\n"
-printf "\t=======================\n"
-printf "\n"
-printf "\t1. ${menu[0]}\n"
-#printf "\t2. ${menu[1]}\n"
-#printf "\t3. ${menu[2]}\n"
-printf "\n"
+PrintMenu
+while printf "Enter: " && read input &&
+      (test $input != q || test -z $input); do 
+
+	a=2
+done
+
 
 # Select an option from the menu
-printf "\nEnter: "
 read input
 case $input in
 	1) echo hello world;;
@@ -83,6 +92,7 @@ case $input in
 	*) echo type again;;
 esac
 
+white (($input==1)); do echo try again; read input; done
 
 # case for each input. each consequent commands are in the form
 # of functions
