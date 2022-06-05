@@ -60,14 +60,14 @@
 # all the dulplicates and outputs only the unique data.
 
 # Initialize the menu
-menu[0]='Find the function y=ax+b using the coordinates of two points.'
-menu[1]=' '
-menu[2]=' '
+menu[0]="Find the function y=ax+b using the coordinates of two points."
+menu[1]=" "
+menu[2]=" "
 
 function PrintMenu () {
 	printf "\n"
-	printf "\tBash Math Visualization\n"
-	printf "\t=======================\n"
+	printf "\tVisualize My Math\n"
+	printf "\t=================\n"
 	printf "\n"
 	printf "\t1. ${menu[0]}\n"
 	printf "\n"
@@ -77,22 +77,21 @@ function PrintMenu () {
 
 # Print the menu
 PrintMenu
-while printf "Enter: " && read input &&
-      (test $input != q || test -z $input); do 
+while printf "Enter: "; read input; 
+(test -z $input || test $input != q); do 
 
-	a=2
+	# Select an option from the menu
+	case $input in
+		1) echo hello world
+		   echo yay yay
+		   echo yes yes;;
+		2) echo heello world 2;;
+	esac
+
 done
 
 
-# Select an option from the menu
-read input
-case $input in
-	1) echo hello world;;
-	2) echo heello world 2;;
-	*) echo type again;;
-esac
-
-white (($input==1)); do echo try again; read input; done
+# white (($input==1)); do echo try again; read input; done
 
 # case for each input. each consequent commands are in the form
 # of functions
