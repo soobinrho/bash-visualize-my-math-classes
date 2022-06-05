@@ -75,25 +75,30 @@ printf "\t1. ${menu[0]}\n"
 printf "\n"
 
 # Select an option from the menu
-printf "\nSelect: "
+printf "\nEnter: "
 read input
+case $input in
+	1) echo hello world;;
+	2) echo heello world 2;;
+	*) echo type again;;
+esac
 
-if 
 
+# case for each input. each consequent commands are in the form
+# of functions
 
-A='Hello World'
-echo $A
+# 'if' construct
+# Example: `if ((2+3==5)); then echo 'hello world'; fi`
 
-
-echo $((1+1)) 
+# echo $((1+1)) 
 
 # Initialize an index
-example_index[0]=0
-example_index[1]=2
-example_index[2]=4
-example_index=(0 2 4)
-echo ${example_index[0]}
-echo ${example_index[*]}
+# example_index[0]=0
+# example_index[1]=2
+# example_index[2]=4
+# example_index=(0 2 4)
+# echo ${example_index[0]}
+# echo ${example_index[*]}
 
 # Remove the index
-unset example_index
+# unset example_index
