@@ -43,10 +43,7 @@
 # I am so glad to have found the "top of the INFO tree."
 # It has documentations for everything, including
 # core file manipulation, Gzip, grep, etc.
-# ```
-# info bash
-# u
-# ```
+# `info '(dir)Top'` or `info bash` and `u`
 
 # Initialize the menu
 menu[0]='Find the function y=ax+b using the coordinates of two points.'
