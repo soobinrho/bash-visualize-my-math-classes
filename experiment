@@ -43,7 +43,21 @@
 # I am so glad to have found the "top of the INFO tree."
 # It has documentations for everything, including
 # core file manipulation, Gzip, grep, etc.
-# `info '(dir)Top'` or `info bash` and `u`
+# `info '(dir)Top'`, or `info bash` and 'u'.
+
+# *cut* command
+# This command is useful for filtering data.
+# `who | cut -c 1-8' outputs the first eight characters.
+# 'who | cut -d' ' -f1,2' sets the delimiter as ' ' and
+# outputs the first and second columns.
+
+# *sort* command
+# Example: 'who | cut -d' ' -f2 | sort -r' outputs
+# the data in the reversed order.
+
+# *uniq* command
+# Example: 'who | cut -d' ' -f1 | uniq' removes
+# all the dulplicates and outputs only the unique data.
 
 # Initialize the menu
 menu[0]='Find the function y=ax+b using the coordinates of two points.'
@@ -53,7 +67,7 @@ menu[2]=' '
 # Print the menu
 printf "\n"
 printf "\tBash Math Visualization\n"
-printf "\t-----------------------\n"
+printf "\t=======================\n"
 printf "\n"
 printf "\t1. ${menu[0]}\n"
 #printf "\t2. ${menu[1]}\n"
