@@ -1,5 +1,74 @@
 #!/bin/bash
 
+# =====================
+# Beginning of the menu
+# =====================
+
+# Initialize the menu
+menu[0]="Find the function y=ax+b using the coordinates of two points."
+menu[1]=" "
+menu[2]=" "
+
+function PrintMenu () {
+	printf "\n"
+	printf "\tVisualize My Math\n"
+	printf "\t=================\n"
+	printf "\n"
+	printf "\t1. ${menu[0]}\n"
+	printf "\n"
+	#printf "\t2. ${menu[1]}\n"
+	#printf "\t3. ${menu[2]}\n"
+}
+
+# Print the menu
+PrintMenu
+while printf "Enter: "; read input; 
+(test -z $input || test $input != q); do 
+
+	# Select an option from the menu
+	case $input in
+		1) echo hello world
+		   echo yay yay
+		   echo yes yes;;
+		2) echo heello world 2;;
+	esac
+
+done
+
+# =============================
+# Beginning of the 1st function
+# =============================
+
+# Visualize using - / \
+
+
+
+# ========================
+# Notes I might need later
+# ========================
+
+# white (($input==1)); do echo try again; read input; done
+
+# case for each input. each consequent commands are in the form
+# of functions
+
+# 'if' construct
+# Example: `if ((2+3==5)); then echo 'hello world'; fi`
+
+# echo $((1+1)) 
+
+# Initialize an index
+# example_index[0]=0
+# example_index[1]=2
+# example_index[2]=4
+# example_index=(0 2 4)
+# echo ${example_index[0]}
+# echo ${example_index[*]}
+
+# Remove the index
+# unset example_index
+
+
 ###
 # June 3, 2022
 # Learned about git using `info gittutorial'.
@@ -59,55 +128,4 @@
 # Example: 'who | cut -d' ' -f1 | uniq' removes
 # all the dulplicates and outputs only the unique data.
 
-# Initialize the menu
-menu[0]="Find the function y=ax+b using the coordinates of two points."
-menu[1]=" "
-menu[2]=" "
 
-function PrintMenu () {
-	printf "\n"
-	printf "\tVisualize My Math\n"
-	printf "\t=================\n"
-	printf "\n"
-	printf "\t1. ${menu[0]}\n"
-	printf "\n"
-	#printf "\t2. ${menu[1]}\n"
-	#printf "\t3. ${menu[2]}\n"
-}
-
-# Print the menu
-PrintMenu
-while printf "Enter: "; read input; 
-(test -z $input || test $input != q); do 
-
-	# Select an option from the menu
-	case $input in
-		1) echo hello world
-		   echo yay yay
-		   echo yes yes;;
-		2) echo heello world 2;;
-	esac
-
-done
-
-
-# white (($input==1)); do echo try again; read input; done
-
-# case for each input. each consequent commands are in the form
-# of functions
-
-# 'if' construct
-# Example: `if ((2+3==5)); then echo 'hello world'; fi`
-
-# echo $((1+1)) 
-
-# Initialize an index
-# example_index[0]=0
-# example_index[1]=2
-# example_index[2]=4
-# example_index=(0 2 4)
-# echo ${example_index[0]}
-# echo ${example_index[*]}
-
-# Remove the index
-# unset example_index
