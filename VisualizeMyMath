@@ -41,6 +41,26 @@ done
 
 # Visualize using - / \
 
+# June 6, 2022
+# I was thinking about why a slope is change in y over change in x
+# and not the other way around: change in x over change in y.
+# I think it could be defined other way -- it could just be a convention.
+# Anyways, this is not my main point. I was thinking about
+# how to visualize what it means to be a slope.
+
+# how to visualize change in y over change in x?
+# I imagined a graph, the one I got on EdX. The first quesiton.
+# I seperated the change in y as a single one dimensional line.
+# x as another single one dimensional line.
+# I laid the y line to x line, so that they can overlap with each other.
+
+# It looked like change in y - change in x.
+# How then can I imagine change in y divided by change in x?
+# I realized that division could also be imagined in a similar way.
+# Here's my main point. Division can be visualized by
+# overlapping the two one dimensional lines of y and x.
+# Whereas subtraction is just overlapping two,
+# division is multiplying the latter until the former can't be subtracted anymore.
 
 
 # ========================
