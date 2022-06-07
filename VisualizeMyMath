@@ -68,6 +68,16 @@ done
 # If then, it will be logical for me to start my visualization journey
 # with slope and then connect this dot with differentiation.
 
+# On square roots
+# why is sqrt(x) equal to x^(1/2)
+# is it because square root is defined such that
+# sqrt(x) = y; y^2 = x? because this leads to
+# y^2 = x^1 = x^(2/2)
+
+# On Logarithms
+# I can't prove how, but here's one way you can understand logs.
+# log(a)+log(b)=log(ab) because for instance 10*10*10=10^1+10^3
+
 # ========================
 # Notes I might need later
 # ========================
