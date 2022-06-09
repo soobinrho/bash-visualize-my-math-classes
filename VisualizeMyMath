@@ -83,6 +83,31 @@ done
 # Visualize what functions look like. y=x^ y=sqrt(x)
 # y=sqrt(4-x^2) y=sqrt(4-x) y=x^-1 y=x^-2
 
+# June 9, 2022
+# Holy shit
+# unit circle. i should study it more.
+# i watched a YouTube video on it
+# Understand trig in five min. the video said
+# anyways, my point is that in a unit circle, in which
+# the radius is 1, we can understand a lot about trigonometry.
+# 1. The circumference is 2pi*r, but in unit circle in which
+#    the radius is 1, the circumference is 2pi.
+# 2. Since sin(x) = opposite / hyp, and hyp is 1, 
+#    sin(x) = opposite. Imagine in your head. It's a vertical line.
+#    This means that it can be also a y coordinate.
+# 3. Since cos(x) = adjacent / hyp, and hyp is 1,
+#    cos(x) = adjacent. It's a horizontal line, a x coordinate.
+#    Remember that a full circle's circumference is 2pi?
+#    Then, you can visalize why and how - at 1pi - 
+#    cos(x) is 1, and sin(x) is 0, etc.
+# 4. The last point, which surprized me the most:
+#    Since tan(x) = opposite / adjacent, 
+#    tan(x) = y/x, which is slope. Can you see the relevance to
+#    the word tangent line? 
+#    Also, tan(x) = sin(x) / cos(x) because
+#    as we saw previously opposite is sin(x) and
+#    adjacent is cos(x).
+
 # ========================
 # Notes I might need later
 # ========================
