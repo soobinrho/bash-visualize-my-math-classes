@@ -133,7 +133,6 @@ done
 # Remove the index
 # unset example_index
 
-
 ###
 # June 3, 2022
 # Learned about git using `info gittutorial'.
@@ -162,6 +161,20 @@ done
 #
 # source: https://stackoverflow.com/questions/27813563/what-is-the-bash-file-extension
 ###
+
+###
+# June 21, 2022
+# For my Calc II midterm exam, I needed a proctor service.
+# So, I was filling out the Examination Proctor Agreement form,
+# which was a pdf. However, okular, the default pdf viewer for
+# Fedora happens to have a not-so-perfect annotation functionality.
+# The annotations I make in okular would not be visible in any
+# other software than okular itself. So, I tried to find
+# pdf editing softwares with good annotation functionality.
+# Here's what I found and used and liked: xournal
+# 
+# sudo dnf install -y xournal
+# 
 
 # by the way, you can copy something on to the clipboard on vim 
 # and then paste it onto another console by
