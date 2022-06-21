@@ -176,6 +176,15 @@ done
 # sudo dnf install -y xournal
 # 
 
+###
+# June 21, 2022
+# For the README.MD for my "Latex Template for College Assignments"
+# I had to add an example image. After x, y, and z, I decided
+# that I needed to add a light grey (HTML Color Code F6F8FA)
+# border around the picture so that it doesn't just blend in too much
+# with a white background -- e.g. GitHub on desktop.
+# I used Gimp. 'Filter' 'Decor' 'Border' size 4, D value 1
+
 # by the way, you can copy something on to the clipboard on vim 
 # and then paste it onto another console by
 # ```
