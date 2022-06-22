@@ -188,6 +188,21 @@ done
 # Plus, you can see the HTML color code on any website on Chrome
 # on Chrome Developer's mode by typing Ctrl + Shift + c
 
+###
+# June 22, 2022
+# Building Unreal Engine 5
+# When executing GenerateProjectFiles.sh, my computer
+# kept throwing an error related to SSL certs.
+# Solution turns out to be this:
+# https://forums.unrealengine.com/t/error-compiling-unreal-engine-on-arch-linux/549637/12
+# sudo dnf reinstall openssl
+# sudo mkdir /usr/local/ssl
+# sudo ln -s /etc/ssl/certs /usr/local/ssl
+# sudo mkdir /usr/lib/ssl
+# sudo ln -s /etc/ssl/certs /usr/lib/ssl
+
+
+###
 # by the way, you can copy something on to the clipboard on vim 
 # and then paste it onto another console by
 # ```
