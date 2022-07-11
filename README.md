@@ -18,3 +18,8 @@ You can find every code in this repository
 at the file `VisualizeMyMath`.
 
 # Examples
+
+
+<br>
+<br>
+<br>
