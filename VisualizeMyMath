@@ -201,6 +201,10 @@ done
 # sudo mkdir /usr/lib/ssl
 # sudo ln -s /etc/ssl/certs /usr/lib/ssl
 
+###
+# July 24, 2022
+# ctrl + shift + u and then type unicode and then space
+# 2192 = right arrow →
 
 ###
 # by the way, you can copy something on to the clipboard on vim 
